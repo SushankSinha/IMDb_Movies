@@ -1,0 +1,30 @@
+//creating table
+
+create table imdb_movies (movie_id integer, movie_name text, media_type text, genre text, reviews text, about text, artists text, characters text, skills text);
+
+//Inserting data into table
+
+insert into imdb_movies 
+values ('1', 'The Shawshank Redemption', 'Videographic', 'Drama', 'Some birds are not meant to be caged.', 'Over the course of several years, two convicts form a friendship, seeking consolation and, eventually, redemption through basic compassion', 'Tim Robbins, Morgan Freeman', 'Andy Dufresne, Ellis Boyd Red Redding ', 'Creative thinking, Communication'
+);
+
+insert into imdb_movies 
+values ('2', 'The Godfather', 'Videographic', 'Crime, Drama', 'One of the best of all time', 'The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son.', 'Marlon Brando, Al Pacino, James Caan', 'Don Vito Corleone, Michael Corleone, Sonny Corleone', 'Communication'
+);
+
+insert into imdb_movies 
+values ('3', 'The Dark Knight', 'Videographic, Stop motion', 'Action, Crime, Drama', 'From start to finish The Dark Knight has you on the edge of your seat, enjoying every minute', 'When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.', 'Christian Bale, Heath Ledger, Morgan Freeman', 'Bruce Wayne, Joker, Lucius Fox', 'Creative thinking, Communication'
+);
+
+insert into imdb_movies 
+values ('4', 'The Godfather II', 'Videographic', 'Crime, Drama', 'A Masterpiece that can never be beaten...', 'The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.', 'Marlon Brando, Al Pacino, James Caan', 'Don Vito Corleone, Michael Corleone, Sonny Corleone', 'Communication'
+);
+
+insert into imdb_movies 
+values ('5', '12 Angry Men', 'Videographic', 'Crime, Drama', 'Do not judge by the age!', 'The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict.', 'Henry Fonda, Lee J. Cobb, Martin Balsam, John Fiedler, E.G. Marshall', 'Juror 1, Juror 2, Juror 3, Juror 4, Juror 5, Juror 6, Juror 7, Juror 8, Juror 9, Juror 10, Juror 11, Juror 12', 'Creative thinking'
+);
+
+//calling complete data at once
+
+select * from imdb_movies;
+
